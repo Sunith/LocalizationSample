@@ -2,7 +2,7 @@
 //  SMPLocalization.h
 //  LocalizationSample
 //
-//  Created by Sunith Muralidharan Pillai on 4/5/14.
+//  Created by Sunith Muralidharan Pillai on 4/12/14.
 //  Copyright (c) 2014 Sunith Muralidharan Pillai. All rights reserved.
 //
 
