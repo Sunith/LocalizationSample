@@ -21,8 +21,11 @@
     [super viewDidLoad];
 
     // get ios device language if localy no language is set
-    if (![[NSUserDefaults standardUserDefaults]objectForKey:@"userLanguage"])LocalizationSetLanguage(LocalizationGetLanguage);
-    
+    if (![[NSUserDefaults standardUserDefaults]objectForKey:@"userLanguage"])
+    {
+        LocalizationSetLanguage(LocalizationGetLanguage);
+        [NSUserDefaults standardUserDefaults]setObject:@"en" forKey:@"userLanguage"];
+    }
 }
 -(void)viewWillAppear:(BOOL)animated
 {

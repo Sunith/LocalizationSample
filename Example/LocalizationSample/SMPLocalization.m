@@ -74,7 +74,7 @@ static NSBundle *bundle = nil;
 - (void) setLanguage:(NSString*) l{
 	NSLog(@"preferredLang: %@", l);
 	
-	NSString *path = [[ NSBundle mainBundle ] pathForResource:l ofType:@"lproj" ];
+	NSString *path = [[ NSBundle mainBundle ] pathForResource:l ofType:@"lproj"];
 	
     
 	if (path == nil)
