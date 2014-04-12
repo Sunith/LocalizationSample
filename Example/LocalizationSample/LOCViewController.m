@@ -24,7 +24,7 @@
     if (![[NSUserDefaults standardUserDefaults]objectForKey:@"userLanguage"])
     {
         LocalizationSetLanguage(LocalizationGetLanguage);
-        [NSUserDefaults standardUserDefaults]setObject:@"en" forKey:@"userLanguage"];
+        [[NSUserDefaults standardUserDefaults]setObject:@"en" forKey:@"userLanguage"];
     }
 }
 -(void)viewWillAppear:(BOOL)animated
