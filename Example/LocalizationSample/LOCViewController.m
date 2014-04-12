@@ -39,7 +39,7 @@
 }
 
 - (IBAction)actionSet:(id)sender {
-    [[[UIAlertView alloc] initWithTitle:@"change language" message:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults]objectForKey:@"userLanguage" ]] delegate:self cancelButtonTitle:@"ok" otherButtonTitles:@"english",@"french", nil] show];
+    [[[UIAlertView alloc] initWithTitle:@"change language" message:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults]objectForKey:@"userLanguage" ]] delegate:self cancelButtonTitle:@"ok" otherButtonTitles:@"English",@"French",@"Italian", nil] show];
 }
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
@@ -52,6 +52,11 @@
     {
         LocalizationSetLanguage(@"fr");
         [[NSUserDefaults standardUserDefaults]setObject:@"fr" forKey:@"userLanguage"];
+    }
+    else if (buttonIndex==3)
+    {
+        LocalizationSetLanguage(@"it");
+        [[NSUserDefaults standardUserDefaults]setObject:@"it" forKey:@"userLanguage"];
     }
 }
 

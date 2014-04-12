@@ -1,0 +1,12 @@
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "3u6-G7-zXn"; */
+"3u6-G7-zXn.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Next"; ObjectID = "MSG-VY-Ujs"; */
+"MSG-VY-Ujs.normalTitle" = "Next";
+
+/* Class = "IBUIButton"; normalTitle = "Change Language"; ObjectID = "Mdu-eh-eXf"; */
+"Mdu-eh-eXf.normalTitle" = "Change Language";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "jiF-cg-TgL"; */
+"jiF-cg-TgL.text" = "Label";
